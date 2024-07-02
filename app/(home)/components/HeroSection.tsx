@@ -4,16 +4,18 @@ import { MdEmail } from "react-icons/md";
 
 export default function HeroSection() {
   return (
-    <div className=' min-h-[60vh] flex flex-col-reverse gap-12  lg:gap-10 lg:flex-row items-center justify-between'>
+    <div className=' min-h-[60vh] flex flex-col-reverse gap-12  lg:gap-10 lg:flex-row items-center justify-between bg-slate-800 rounded-lg p-5'>
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-3xl lg:text-7xl font-bold italic'>
           Welcome 
-          <br />
-          <span className=" underline underline-offset-10 decoration-amber-400 text-3xl padding-top: 15px padding-bottom: 15px">
-            {"This is an incremental build of a Next JS full-stack."}
-          </span>
         </h1>
- 
+        <h2 className=" underline underline-offset-10 decoration-amber-400 text-3xl padding-top: 10px padding-bottom: 5px">
+            {"This is an incremental build of "}
+        </h2>
+        <h2 className=" underline underline-offset-10 decoration-amber-400 text-3xl padding-top: 5px padding-bottom: 10px font-bold italic">
+            {"a Next JS full-stack."}
+        </h2>
+   
        <p className="; md:w-96 text-lg  text-gray-300">
           {
             "This project is a sandbox to learn the Next JS framework combined with Vercel.  This is the beginning stages of development of this basic boilerplate into a blog site with an AI Chat bot integrated down the line."
